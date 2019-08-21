@@ -1,0 +1,294 @@
+/*
+Theme Name: Verito
+Theme URI: http://wordpress.magikthemes.com/verito
+Author: MagikCommerce
+Author URI: http://www.magikcommerce.com/
+Description: Verito wordpress Theme
+Version: 2.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns,  left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: verito
+*/
+/* TABLE OF CONTENTS
+
+1.      BODY
+2.      LAYOUT
+2a.     Base Columns
+2b.     1 Column Layout
+2c.     2 Column Layout
+2d.     3 Column Layout
+
+
+*/
+/* BEGIN OF STYLING */
+
+/* 1. BODY */
+body {
+	color: #333;
+	font-size: 13px;
+	font-family: "Open Sans", sans-serif;
+	padding: 0;
+	margin: auto;
+	line-height: 1.55;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+a:hover, a:focus {
+/*color: #da2c2a;*/
+	/*text-decoration: underline;*/
+}
+legend {
+	display: none;
+}
+/* 2.  LAYOUT */
+
+
+/* 2a. Base Columns */
+.col-left {
+	margin-bottom: 0px;
+}
+.col-main {
+}
+.col-right {
+	margin-bottom: 0px;
+}
+/* 2b. 1 Column Layout */
+.col1-layout .header-background-default {
+	margin: 20px;
+	padding: 0;
+}
+.col1-layout .col-main {
+	float: none;
+	width: auto;
+}
+/* 2c. 2 Column Layoutt */
+.col2-left-layout .col-main {
+}
+.col2-right-layout .col-main {
+}
+.col2-right-layout ol.opc .col-md-4 {
+	margin-right: 15px;
+}
+/* 2d. 3 Column Layout */
+.col3-layout .col-main {
+}
+.col3-layout .col-wrapper {
+	float: left;
+	width: 780px;
+}
+.col3-layout .col-wrapper .col-main {
+	float: right;
+}
+.product-essential .variations_form .variations {
+	margin-bottom: 10px;
+}
+.woocommerce-main-image img.moreview_source_image {
+	display: none !important;
+}
+.page-editlink {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.cart-table tbody td.image a img {
+	width: 80px !important;
+	max-width: 80px !important;
+	height: auto !important;
+}
+.author-bio .author-link {
+	color: #649a1d;
+	margin-top: 5px;
+	display: block;
+}
+/* instagram css */
+
+.social .instagram a {
+	content: "\f16d";
+	font-family: FontAwesome;
+	font-size: 18px;
+	display: inline-block!important;
+	text-align: center;
+	padding: 0;
+}
+.social .instagram a:before {
+	content: "\f16d";
+	font-family: FontAwesome;
+}
+.social .instagram a:hover {
+	background: #5484ab !important;
+}
+
+/* new CSS added in version 1.4 */
+
+#yith-quick-view-content
+{
+    margin:10px;
+}
+
+
+/* version 2.1 css */
+
+#yith-quick-view-content div.images
+{
+    width: 100%;
+}
+
+
+.woocommerce .crosssel ul.products li.product, .woocommerce-page .crosssel ul.products li.product
+{
+    padding: 12px;
+}
+
+.mini-products-list .product-image img {
+    width: 65px;
+    height: auto;
+}
+.woocommerce div.product form.cart .group_table td:first-child {
+    width: auto !important;
+}
+
+
+
+/* new feature css */
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product
+{
+	margin: 0 2.8% 2.992em 0 !important;
+}
+
+.mega-menu li.menu-item.menu-item-type-custom ul.sub-menu li.menu-item
+{
+display: block  !important;	
+}
+.products-grid.products .desc 
+{
+	display: none;
+}
+.products-grid.products .action .button.yith-wcqv-button
+{
+		display: none;
+}
+.single-product.woocommerce .timer-grid .box-time-date {
+	background: #fbfbfb;
+	font-size: 9px;
+	color: #808080;
+	min-width: 85px;
+	min-height: 65px;
+	text-align: center;
+	margin: 7px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 0;
+	border: 1px #e8e8e8 solid;
+	display: inline-block;
+}
+
+.single-product.woocommerce .box-timer {
+	position: relative;
+	bottom: 0px;
+	left: -8px;
+	top: 0px;
+	margin-top: 0px;
+	display: inline-block;
+}
+.single-product.woocommerce .product-timer-box {
+	padding: 12px 0px;
+	border-bottom: 1px #ddd dotted;
+}
+
+  .woocommerce ul.products-grid li.product, .woocommerce-page ul.products-grid li.product
+  {
+         float: left;
+  	position: relative;
+    width: 22.05%;
+  }
+
+  .products-grid .product .desc {
+    display: none;
+}
+.products-grid .product .action .button.yith-wcqv-button {
+    display: none;
+}
+.woocommerce ul.products-grid li.product, .woocommerce-page ul.products-grid li.product {
+    margin: 0 2.8% 2.992em 0 !important;
+}
+
+.products-grid .product-category h3
+{
+	font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+     text-align: center;
+   font-weight: 400;
+
+}
+
+.products-grid .product-category h3 .count
+{
+	font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    background-color: inherit;
+   font-weight: 600;
+
+
+}
+
+
+.widget_product_search button {
+    background-color: #ef4749;
+    padding: 7px 15px;
+    margin-left: -6px;
+      background: #ef4749 !important;
+    border: 1px #ef4749 solid !important;
+    color: #fff !important;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: right;
+}
+
+.woocommerce-widget-layered-nav-dropdown,.woocommerce.widget_rating_filter
+{
+margin-top:15px;
+}
+.woocommerce.widget_rating_filter .star-rating
+{
+	font-size: 14px !important;
+	margin-bottom: -2px !important;
+}
+.woocommerce.widget_rating_filter .star-rating:before
+{
+	font-size: 14px !important;
+}
+.select2-container--default .select2-selection--single
+{
+	border-radius: 0px !important;
+	border: 1px solid #666 !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	.single-product.woocommerce .timer-grid .box-time-date {
+min-width:65px;
+	min-height: 55px;
+
+	}
+	.single-product.woocommerce .timer-grid  .box-time-date span {
+	
+	font-size: 14px;
+    }
+	}
+
+	@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.single-product.woocommerce .timer-grid .box-time-date {
+min-width:65px;
+	min-height: 60px;
+
+	}
+	
+	}
